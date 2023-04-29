@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="images">
+    <file>images/robot.png</file>
+    <file>images/background.png</file>
+  </qresource>
+  <qresource prefix="icons">
+    <file>icons/close.png</file>
+    <file>icons/tan.png</file>
+    <file>icons/left.png</file>
+    <file>icons/right.png</file>
+  </qresource>
+</RCC>

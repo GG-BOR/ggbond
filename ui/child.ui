@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>167</width>
+    <height>162</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>7</y>
+     <width>70</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton{
+	color: rgb(255, 255, 255);
+	background-color: rgb(97, 97, 97);
+	border:1px solid rgb(97, 97, 97);	
+	border-bottom-right-radius:12px;
+}
+#pushButton:hover{
+	background-color: rgb(85, 170, 255);
+	color:rgb(0,0,0);
+}</string>
+   </property>
+   <property name="text">
+    <string>腐蚀</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>16</width>
+     <height>16</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>90</y>
+     <width>70</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton_2{
+	color: rgb(255, 255, 255);
+	background-color: rgb(97, 97, 97);
+	border:1px solid rgb(97, 97, 97);
+	border-top-right-radius:12px;
+}
+#pushButton_2:hover{
+	background-color: rgb(85, 170, 255);
+	color:rgb(0,0,0);
+}</string>
+   </property>
+   <property name="text">
+    <string>膨胀</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>7</y>
+     <width>70</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton_3{
+	color: rgb(255, 255, 255);
+	background-color: rgb(97, 97, 97);
+	border:1px solid rgb(97, 97, 97);
+	border-bottom-left-radius:12px;
+}
+#pushButton_3:hover{
+	background-color: rgb(85, 170, 255);
+	color:rgb(0,0,0);
+}</string>
+   </property>
+   <property name="text">
+    <string>礼帽</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>90</y>
+     <width>70</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton_4{
+	color: rgb(255, 255, 255);
+	background-color: rgb(97, 97, 97);
+	border:1px solid rgb(97, 97, 97);
+	border-top-left-radius:12px;
+}
+#pushButton_4:hover{
+	background-color: rgb(85, 170, 255);
+	color:rgb(0,0,0);
+}</string>
+   </property>
+   <property name="text">
+    <string>黑帽</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>167</width>
+     <height>162</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:7px solid rgb(0, 170, 0);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>pushButton_4</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
